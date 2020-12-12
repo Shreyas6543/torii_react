@@ -1,9 +1,4 @@
-import React, { Component } from 'react';
-import{
-    BrowserRouter as Router,
-    Route,
-    Link
-} from 'react-router-dom';
+import React from 'react';
 import './Assets/css/app.css';
 import Header from './Component/homepage/header.js'
 import Main1 from './Component/homepage/main1.js'
