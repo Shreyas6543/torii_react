@@ -15,6 +15,7 @@ const [maincircle3, setCircle] = useState("dummy6")
 
 const listenScrollEvent = (event) => {
   if (window.scrollY > 1400) {
+  // eslint-disable-next-line
     return setH1("mainh1"),
     setH1b("mainh1b"),
     setH2("mainh2"),

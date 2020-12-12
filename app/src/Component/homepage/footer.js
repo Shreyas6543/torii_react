@@ -14,6 +14,7 @@ const [footline, setLine] = useState("dummy3")
 
 const listenScrollEvent = (event) => {
   if (window.scrollY > 5800) {
+  // eslint-disable-next-line
     return setH1("footh1"),
     setH2("footh2"),
     setLine("footline")
