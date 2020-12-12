@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import right from './../../Assets/images/arrow-right.svg';
-import right1 from './../../Assets/images/arrow-right.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook , faInstagram , faTwitter } from '@fortawesome/free-brands-svg-icons'
 const fb = <FontAwesomeIcon icon={faFacebook} />;
@@ -53,7 +52,7 @@ useEffect(() => {
     </div>
     <div className="work">
             <div className="worka">LET'S WORK TOGETHER</div>
-            <img src={right} className="workb"/>
+            <img src={right} className="workb" alt=""/>
     </div>
 
     <div className="footdiv2"></div>
