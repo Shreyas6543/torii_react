@@ -13,7 +13,7 @@ const [footh2, setH2] = useState("dummy2")
 const [footline, setLine] = useState("dummy3")
 
 const listenScrollEvent = (event) => {
-  if (window.scrollY > 5800) {
+  if (window.scrollY > 4600) {
   // eslint-disable-next-line
     return setH1("footh1"),
     setH2("footh2"),
@@ -40,7 +40,7 @@ useEffect(() => {
             </div>
          </div>
        </div>
-       <div className="footbutton">See our Work</div>;
+       <div className="footbutton">Learn more</div>;
        <div className={footh2}>
          <div class="text-top">
             <div>

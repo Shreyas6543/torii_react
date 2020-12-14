@@ -47,8 +47,6 @@ export default function Main1() {
     <div className="maindiv1">
         <div className="maincircle"><Lottie
 	    options={defaultOptions}
-        height={700}
-        width={1400}
       /></div>
     </div>
   </div>
