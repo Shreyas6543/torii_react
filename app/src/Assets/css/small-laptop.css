@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1400px)
+@media only screen and (max-width: 1450px)
 {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
@@ -417,17 +417,16 @@ overflow:hidden;
 
 .maindiv{
 position:absolute;
-margin:8% 0 0 10%;
+margin:10% 0 0 10%;
 width:30%;
 height:40%;
 }
 
 .maindiv1{
-position:absolute;
 float:bottom;
-margin:21% 0 0 25%;
+margin:30% 0 0 30%;
 overflow:hidden;
-width:75%;
+width:70%;
 }
 
 
@@ -550,8 +549,8 @@ animation-duration: 0.5s;
  100% {width:83%;}
 }
 .maincircle{
-width:90vw;
-height:60vh;
+width:960px;
+height:460px;
 border-top-left-radius: 1300px;
 border-top-right-radius:1300px;
 background-size: 100%;
@@ -560,6 +559,7 @@ animation-duration: 1.5s;
 opacity:1;
 background:#1c2235;
 overflow:hidden;
+float:bottom;
 }
 @keyframes cimg {
  0% {background:none;opacity:0;}
