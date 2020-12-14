@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import right from './../../Assets/images/arrow-right.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook , faInstagram , faTwitter } from '@fortawesome/free-brands-svg-icons'
