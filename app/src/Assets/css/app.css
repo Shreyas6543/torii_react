@@ -369,6 +369,7 @@ height:840px;
 background-color:#000118;
 margin-top:90px;
   letter-spacing: 0.15em;
+  position:relative;
 }
 .main2{
 height:840px;
@@ -421,11 +422,13 @@ height:40%;
 
 .maindiv1{
 position:absolute;
-margin:10% 0 0 39.5%;
 overflow:hidden;
 width:60%;
+margin-left:39.5%;
+float:bottom;
+float:bottom;
+bottom:0;
 }
-
 
 
 .mainh1{
@@ -548,7 +551,7 @@ animation-duration: 0.5s;
 }
 .maincircle{
 width:70vw;
-height:68vh;
+height:35vw;
 border-top-left-radius: 1300px;
 border-top-right-radius:1300px;
 background-size: 100%;
@@ -1279,3 +1282,4 @@ margin-top:18%;
     position:absolute;
     transform: translate(-50%, -50%);
     }
+

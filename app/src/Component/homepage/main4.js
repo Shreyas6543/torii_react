@@ -70,7 +70,7 @@ useEffect(() => {
          </div>
        </div>
     </div>
-    <div className="maindiv1">
+    <div className="maindiv12">
        <div className={maincircle4}>
         <Lottie
 	    options={defaultOptions}
