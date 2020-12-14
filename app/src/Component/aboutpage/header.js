@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react'
 
-
-
 function Header1() {
 const [header, setHeader] = useState("header")
 
