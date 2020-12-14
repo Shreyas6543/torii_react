@@ -1,5 +1,4 @@
 import React from 'react'
-import right from './../../Assets/images/arrow-right.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook , faInstagram , faTwitter } from '@fortawesome/free-brands-svg-icons'
 const fb = <FontAwesomeIcon icon={faFacebook} />;
