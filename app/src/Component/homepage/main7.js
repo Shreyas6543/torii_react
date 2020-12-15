@@ -19,7 +19,7 @@ export default function Main7() {
         <div className="each-fade">
           <div className="image-container">
             <img src={ppl3} className="main7img" alt="ppl1"/>
-            <div className="main7text">“Torii was incredible at developing full end-to-end experiences for sophisticated and difficult tools and componentry systems.<br/><br/>Torii’s ability to rapidly prototype, learn from the goods and bads, augment the work and continuously improve, was fantastic and foundational to making a great product."</div>
+            <div className="main7text">“Torii was incredible at developing full end-to-end experiences for sophisticated and difficult tools and componentry systems.<br/>Torii’s ability to rapidly prototype, learn from the goods and bads, augment the work and continuously improve, was fantastic and foundational to making a great product."</div>
             <div className="main7text1">Rachel Been / Creative Director / Google, Material Design</div>
           </div>
         </div>
