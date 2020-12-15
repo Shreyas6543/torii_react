@@ -857,7 +857,7 @@ font-size:16px;
     font-family: 'Oswald', sans-serif;
     font-weight:100;
     font-size:1.6em;
-    height:30vh;
+    height:30%;
     width:78%;
     margin-left:53%;
     margin-top:18%;
@@ -899,8 +899,8 @@ animation-duration: 1.5s;
     color:#fff;
     display:flex;
     height:7%;
-    width:23%;
-    margin-top:26%;
+    width:30%;
+    margin-top:27%;
     margin-left:15%;
     padding-left:0;
 transition: padding-left 0.6s;
@@ -915,7 +915,7 @@ color:#bd6b8e;
 .worka{
     font-family: 'Oswald', sans-serif;
     font-weight:600;
-    font-size:35px;
+    font-size:26px;
     margin-top:
 }
 .workb{
@@ -949,7 +949,7 @@ background:white;
 width:70%;
 height:0.1%;
 margin-left:14%;
-margin-top:5%;
+margin-top:2%;
 }
 .footadr{
 color:white;
