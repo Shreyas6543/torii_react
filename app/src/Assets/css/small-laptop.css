@@ -380,6 +380,8 @@ height:80vh;
 background-color:white;
   letter-spacing: 0.15em;
     position:relative;
+    display:flex;
+flex-direction:column;
 }
 .main3{
 height:90vh;
@@ -575,15 +577,20 @@ animation-duration: 1.5s;
 }
 
 
+.main2b{
+display:flex;
+flex-direction:row;
+height:30%;
+}
+
 .main2head{
     font-family: 'Oswald', sans-serif;
     font-weight:600;
     font-size:50px;
-    margin-left:14%;
-    margin-top:6%;
     color:black;
     position:absolute;
     }
+
 .main2button{
 padding:6px 50px;
   font-size:16px;
@@ -592,7 +599,6 @@ padding:6px 50px;
   border:1px solid #db3067;
   color:#db3067;
   background:white;
-   margin-left:14%;
  border-radius:30px;
   position:absolute;
 }
@@ -601,8 +607,10 @@ cursor:pointer;
 background:#f5f5f5;
 }
 .main2partnerscont{
+height:80%;
 width:70%;
-margin:14% 12%;
+padding:4%;
+position:absolute;
 }
 .main2partnercont2{
 width:17%;

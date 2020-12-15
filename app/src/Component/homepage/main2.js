@@ -11,8 +11,9 @@ class Main2 extends Component {
   render() {
   return (
   <div className="main2">
-    <div className="main2head">Trusted Partners</div>
-    <div className="main2button">See our Work</div>;
+<div className="main2head">Trusted Partners</div>
+                            <div className="main2button">See our Work</div>
+
     <div className="main2partnerscont">
         <img src={google} className="main2partnercont2" alt="google"/>
         <img src={trello} className="main2partnercont2" alt="trello"/>
@@ -20,7 +21,6 @@ class Main2 extends Component {
         <img src={taboola} className="main2partnercont2" alt="taboola"/>
         <img src={skill} className="main2partnercont2" alt="skillhire"/>
         <img src={total} className="main2partnercont2" alt="totalbrain"/>
-
     </div>
   </div>
   );
