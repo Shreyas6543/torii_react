@@ -75,11 +75,7 @@ useEffect(() => {
     </div>
     <div className="maindiv1">
        <div className={maincircle4}>
-        <Lottie
-	    options={defaultOptions}
-        height={700}
-        width={1200}
-      /></div>
+        </div>
     </div>
   </div>
   );

@@ -45,9 +45,7 @@ export default function Main1() {
        </div>
     </div>
     <div className="maindiv1">
-        <div className="maincircle"><Lottie
-	    options={defaultOptions}
-      /></div>
+        <div className="maincircle"></div>
     </div>
   </div>
   );

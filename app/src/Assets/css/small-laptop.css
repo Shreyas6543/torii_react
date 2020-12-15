@@ -672,6 +672,7 @@ border-top-right-radius:1300px;
 background-size: 100%;
 background:#1c2235;
 opacity:1;
+background:url("./../images/ppl.gif")no-repeat;
 overflow:hidden;
 position:absolute;
 float:bottom;

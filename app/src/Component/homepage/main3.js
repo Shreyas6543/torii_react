@@ -70,7 +70,7 @@ useEffect(() => {
        <div className="main3button">See our Work</div>;
     </div>
     <div className="maindiv3a">
-        <div className={maincircle3}>&nbsp;
+        <div className={maincircle3}>
         </div>
     </div>
   </div>
