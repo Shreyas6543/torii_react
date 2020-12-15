@@ -406,7 +406,6 @@ background-color:#fff;
 .main7{
 height:80vh;
 background-color:#fff;
-border-top:1px solid #c60055;
   letter-spacing: 0.15em;
     position:relative;
 }
@@ -558,10 +557,10 @@ animation-duration: 0.5s;
  100% {width:83%;margin-left:-2%;}
 }
 .maincircle{
-width:70vw;
-height:35vw;
-border-top-left-radius: 1300px;
-border-top-right-radius:1300px;
+width:150vh;
+height:75vh;
+border-top-left-radius: 75vh;
+border-top-right-radius:75vh;
 background-size: 100%;
 animation-name: cimg;
 animation-duration: 1.5s;
@@ -639,10 +638,10 @@ margin:10% 0 0 -7%;
 width:1150px;
 }
 .maincircle3{
-width:1300px;
-height:650px;
-border-top-left-radius: 1300px;
-border-top-right-radius:1300px;
+width:150vh;
+height:75vh;
+border-top-left-radius: 75vh;
+border-top-right-radius:75vh;
 background-size: 100%;
 background:#1c2235;
 background:url("./../images/discover.gif")no-repeat;
@@ -658,20 +657,20 @@ overflow:hidden;
 width:1150px;
 }
 .maincircle4{
-width:1300px;
-height:650px;
-border-top-left-radius: 1300px;
-border-top-right-radius:1300px;
+width:150vh;
+height:75vh;
+border-top-left-radius: 75vh;
+border-top-right-radius:75vh;
 background-size: 100%;
 background:#1c2235;
 opacity:1;
 overflow:hidden;
 }
 .maincircle5{
-width:1300px;
-height:650px;
-border-top-left-radius: 1300px;
-border-top-right-radius:1300px;
+width:150vh;
+height:75vh;
+border-top-left-radius: 75vh;
+border-top-right-radius:75vh;
 background-size: 100%;
 background:#1c318d;
 opacity:1;
