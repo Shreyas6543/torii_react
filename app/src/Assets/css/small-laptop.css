@@ -104,7 +104,7 @@ body,html{
 
 
 .header .logo {
-margin-top:5%;
+margin-top:8vh;
 width:14.5%;
 height:100%;
 margin-left:10%;
@@ -141,7 +141,7 @@ margin-right:2%;
 }
 
 .header2 .logo {
-margin-top:5%;
+margin-top:8vh;
 width:14.5%;
 height:100%;
 margin-left:10%;
@@ -151,7 +151,7 @@ position:relative;
 }
 
 .header2 .links {
-margin-top:6%;
+margin-top:8vh;
 width:24.5%;
 height:100%;
 margin-right:2%;
@@ -180,7 +180,7 @@ margin-right:2%;
 }
 
 .header3 .logo {
-margin-top:5%;
+margin-top:8vh;
 width:14.5%;
 height:100%;
 margin-left:10%;
@@ -190,7 +190,7 @@ position:relative;
 }
 
 .header3 .links {
-margin-top:6%;
+margin-top:8vh;
 width:24.5%;
 height:100%;
 margin-right:2%;
@@ -219,7 +219,7 @@ margin-right:2%;
 }
 
 .header4 .logo {
-margin-top:5%;
+margin-top:8vh;
 width:14.5%;
 height:100%;
 margin-left:10%;
@@ -229,7 +229,7 @@ position:relative;
 }
 
 .header4 .links {
-margin-top:6%;
+margin-top:8vh;
 width:24.5%;
 height:100%;
 margin-right:2%;
@@ -257,7 +257,7 @@ margin-right:2%;
   font-weight:800;
 }
 .header5 .logo {
-margin-top:5%;
+margin-top:8vh;
 width:14.5%;
 height:100%;
 margin-left:10%;
@@ -267,7 +267,7 @@ position:relative;
 }
 
 .header5 .links {
-margin-top:6%;
+margin-top:8vh;
 width:24.5%;
 height:100%;
 margin-right:2%;
@@ -294,7 +294,7 @@ margin-right:2%;
   font-weight:800;
 }
 .header6 .logo {
-margin-top:5%;
+margin-top:8vh;
 width:14.5%;
 height:100%;
 margin-left:10%;
@@ -304,7 +304,7 @@ position:relative;
 }
 
 .header6 .links {
-margin-top:6%;
+margin-top:8vh;
 width:24.5%;
 height:100%;
 margin-right:2%;
@@ -331,7 +331,7 @@ margin-right:2%;
   font-weight:800;
 }
 .header7 .logo {
-margin-top:5%;
+margin-top:8vh;
 width:14.5%;
 height:100%;
 margin-left:10%;
@@ -341,7 +341,7 @@ position:relative;
 }
 
 .header7 .links {
-margin-top:6%;
+margin-top:8vh;
 width:24.5%;
 height:100%;
 margin-right:2%;
@@ -442,8 +442,8 @@ height:80vh;
 bottom:0;
 }
 .maincircle{
-width:140vh;
-height:70vh;
+width:150vh;
+height:75vh;
 border-top-left-radius: 90vh;
 border-top-right-radius:90vh;
 background-size: 100%;
