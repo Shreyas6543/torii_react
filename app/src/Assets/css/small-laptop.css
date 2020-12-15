@@ -434,19 +434,19 @@ padding:50px;
 
 .maindiv1{
 position:absolute;
-margin-left:30%;
+margin-left:40%;
 overflow:hidden;
-width:70%;
+width:60%;
 float:bottom;
 float:bottom;
-height:60vh;
+height:90vh;
 bottom:0;
 }
 .maincircle{
-width:120vh;
-height:60vh;
-border-top-left-radius: 60vh;
-border-top-right-radius:60vh;
+width:180vh;
+height:90vh;
+border-top-left-radius: 90vh;
+border-top-right-radius:90vh;
 background-size: 100%;
 animation-name: cimg;
 animation-duration: 1.5s;
