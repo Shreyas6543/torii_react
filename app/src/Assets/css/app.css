@@ -430,8 +430,24 @@ height:40%;
 position:absolute;
 overflow:hidden;
 width:60%;
-margin-left:39.5%;
+margin-left:40%;
 float:bottom;
+height:75vh;
+bottom:0;
+}
+
+.maincircle{
+width:150vh;
+height:75vh;
+border-top-left-radius: 75vh;
+border-top-right-radius:75vh;
+background-size: 100%;
+animation-name: cimg;
+animation-duration: 1.5s;
+opacity:1;
+background:#1c2235;
+overflow:hidden;
+position:absolute;
 float:bottom;
 bottom:0;
 }
@@ -556,18 +572,7 @@ animation-duration: 0.5s;
  50% {width:8%;margin-left:2%;}
  100% {width:83%;margin-left:-2%;}
 }
-.maincircle{
-width:150vh;
-height:75vh;
-border-top-left-radius: 75vh;
-border-top-right-radius:75vh;
-background-size: 100%;
-animation-name: cimg;
-animation-duration: 1.5s;
-opacity:1;
-background:#1c2235;
-overflow:hidden;
-}
+
 @keyframes cimg {
  0% {background:none;opacity:0;}
  50% {opacity:0;}
@@ -655,6 +660,7 @@ position:absolute;
 margin:10% 0 0 39.5%;
 overflow:hidden;
 width:1150px;
+
 }
 .maincircle4{
 width:150vh;
