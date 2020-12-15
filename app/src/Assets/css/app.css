@@ -639,18 +639,27 @@ height:40%;
 
 .maindiv3a{
 position:absolute;
-margin:10% 0 0 -7%;
-width:1150px;
+margin-left:-7%;
+overflow:hidden;
+width:90%;
+float:bottom;
+height:700px;
+bottom:0;
 }
 .maincircle3{
-width:150vh;
-height:75vh;
-border-top-left-radius: 75vh;
-border-top-right-radius:75vh;
+width:140vh;
+height:70vh;
+border-top-left-radius: 70vh;
+border-top-right-radius:70vh;
 background-size: 100%;
 background:#1c2235;
 background:url("./../images/discover.gif")no-repeat;
 opacity:1;
+overflow:hidden;
+position:absolute;
+float:bottom;
+bottom:0;
+
 }
 .dummy1,.dummy2,.dummy3,.dummy4,.dummy5,.dummy6{
 opacity:0;}
@@ -660,17 +669,22 @@ position:absolute;
 margin:10% 0 0 39.5%;
 overflow:hidden;
 width:1150px;
-
 }
+
 .maincircle4{
 width:150vh;
 height:75vh;
 border-top-left-radius: 75vh;
 border-top-right-radius:75vh;
 background-size: 100%;
-background:#1c2235;
+animation-name: cimg;
+animation-duration: 1.5s;
 opacity:1;
+background:#1c2235;
 overflow:hidden;
+position:absolute;
+float:bottom;
+bottom:0;
 }
 .maincircle5{
 width:150vh;
@@ -678,9 +692,14 @@ height:75vh;
 border-top-left-radius: 75vh;
 border-top-right-radius:75vh;
 background-size: 100%;
-background:#1c318d;
+animation-name: cimg;
+animation-duration: 1.5s;
 opacity:1;
+background:#1c2235;
 overflow:hidden;
+position:absolute;
+float:bottom;
+bottom:0;
 }
 
 .main6div{
