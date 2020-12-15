@@ -440,18 +440,18 @@ height:100%;
 }
 .maindiv1{
 position:absolute;
-margin-left:20%;
+margin-left:30%;
 overflow:hidden;
-width:80%;
+width:70%;
 float:bottom;
 height:80vh;
 bottom:0;
 }
 .maincircle{
-width:140vh;
-height:70vh;
-border-top-left-radius: 70vh;
-border-top-right-radius:70vh;
+width:150vh;
+height:75vh;
+border-top-left-radius: 75vh;
+border-top-right-radius:75vh;
 background-size: 100%;
 opacity:1;
 background:#1c2235;
@@ -578,7 +578,7 @@ animation-duration: 1.5s;
 .main2head{
     font-family: 'Oswald', sans-serif;
     font-weight:600;
-    font-size:60px;
+    font-size:50px;
     margin-left:14%;
     margin-top:6%;
     color:black;
@@ -593,9 +593,8 @@ padding:6px 50px;
   color:#db3067;
   background:white;
    margin-left:14%;
-    margin-top:50%;
  border-radius:30px;
-       position:absolute;
+  position:absolute;
 }
 .main2button:hover{
 cursor:pointer;
@@ -671,8 +670,8 @@ z-index:9;
 .maincircle4{
 width:150vh;
 height:75vh;
-border-top-left-radius: 1300px;
-border-top-right-radius:1300px;
+border-top-left-radius: 75vh;
+border-top-right-radius:75vh;
 background-size: 100%;
 background:#1c2235;
 opacity:1;
@@ -685,8 +684,8 @@ bottom:0;
 .maincircle5{
 width:150vh;
 height:75vh;
-border-top-left-radius: 1300px;
-border-top-right-radius:1300px;
+border-top-left-radius: 75vh;
+border-top-right-radius:75vh;
 background-size: 100%;
 background:#1c318d;
 opacity:1;
