@@ -5,21 +5,28 @@ import{
 
 function Header() {
 const [header, setHeader] = useState("header")
+const ele = (document.documentElement.clientHeight * 0.65);
+const element1=(ele*0.03)
+const element2=(ele*1.4)
+const element3=(ele*2.62)
+const element4=(ele*4)
+const element5=(ele*5.4)
+const element6=(ele*6.8)
 
 const listenScrollEvent = (event) => {
-  if (window.scrollY < 33) {
+  if (window.scrollY < element1) {
     return setHeader("header")
-  } else if (window.scrollY >= 33 && window.scrollY < 860) {
+  } else if (window.scrollY >= element1 && window.scrollY < element2) {
     return setHeader("header2")
-  }else if (window.scrollY >= 860 && window.scrollY < 1700) {
+  }else if (window.scrollY >= element2 && window.scrollY < element3) {
     return setHeader("header3")
-  }else if (window.scrollY >= 1700 && window.scrollY < 2540)  {
+  }else if (window.scrollY >= element3 && window.scrollY < element4)  {
     return setHeader("header4")
-  }else if (window.scrollY >= 2540 && window.scrollY < 3380)  {
+  }else if (window.scrollY >= element4 && window.scrollY < element5)  {
     return setHeader("header5")
-  }else if (window.scrollY >= 3380 && window.scrollY < 4200)  {
+  }else if (window.scrollY >= element5 && window.scrollY < element6)  {
     return setHeader("header6")
-  }else if (window.scrollY >= 4200)  {
+  }else if (window.scrollY >= element6)  {
     return setHeader("header3")
   }
 }
@@ -29,7 +36,7 @@ useEffect(() => {
 
   return () =>
     window.removeEventListener('scroll', listenScrollEvent);
-}, []);
+});
 
   return (
   <div className="head">

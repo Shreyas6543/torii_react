@@ -12,9 +12,12 @@ const [mainh2, setH2] = useState("dummy3")
 const [mainh2b, setH2b] = useState("dummy4")
 const [mainline, setLine] = useState("dummy5")
 const [maincircle5, setCircle] = useState("dummy6")
+const ele = (document.documentElement.clientHeight * 0.65);
+const element=(ele*5);
+
 
 const listenScrollEvent = (event) => {
-  if (window.scrollY > 2900) {
+  if (window.scrollY > element) {
   // eslint-disable-next-line
     return setH1("mainh1"),
     setH1b("mainh1b"),
@@ -30,7 +33,7 @@ useEffect(() => {
 
   return () =>
     window.removeEventListener('scroll', listenScrollEvent);
-}, []);
+});
   const defaultOptions = {
       loop: true,
       autoplay: true,

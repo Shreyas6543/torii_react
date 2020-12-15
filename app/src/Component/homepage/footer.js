@@ -11,9 +11,12 @@ export default function Footer() {
 const [footh1, setH1] = useState("dummy1")
 const [footh2, setH2] = useState("dummy2")
 const [footline, setLine] = useState("dummy3")
+const ele = (document.documentElement.clientHeight * 0.65);
+const element=(ele*7.4);
+
 
 const listenScrollEvent = (event) => {
-  if (window.scrollY > 4600) {
+  if (window.scrollY > element) {
   // eslint-disable-next-line
     return setH1("footh1"),
     setH2("footh2"),
@@ -26,7 +29,7 @@ useEffect(() => {
 
   return () =>
     window.removeEventListener('scroll', listenScrollEvent);
-}, []);
+});
 
   return (
   <div className="footer">

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Lottie from 'react-lottie';
-import Data from './../../Assets/lottie/main3.json';
+
 
 
 
@@ -12,9 +11,12 @@ const [mainh2, setH2] = useState("dummy3")
 const [mainh2b, setH2b] = useState("dummy4")
 const [mainline, setLine] = useState("dummy5")
 const [maincircle3, setCircle] = useState("dummy6")
+const ele = (document.documentElement.clientHeight * 0.65);
+const element=(ele*2.3);
+
 
 const listenScrollEvent = (event) => {
-  if (window.scrollY > 1400) {
+  if (window.scrollY > element) {
   // eslint-disable-next-line
     return setH1("mainh1"),
     setH1b("mainh1b"),
@@ -30,15 +32,8 @@ useEffect(() => {
 
   return () =>
     window.removeEventListener('scroll', listenScrollEvent);
-}, []);
-  const defaultOptions = {
-      loop: true,
-      autoplay: true,
-      animationData:Data,
-      rendererSettings: {
-        preserveAspectRatio: "xMidYMid slice"
-      }
-    };
+});
+
 
   return (
  <div className="main3">
@@ -75,12 +70,8 @@ useEffect(() => {
        <div className="main3button">See our Work</div>;
     </div>
     <div className="maindiv3a">
-        <div className={maincircle3}>
-        <Lottie
-	    options={defaultOptions}
-        height={750}
-        width={750}
-      /></div>
+        <div className={maincircle3}>&nbsp;
+        </div>
     </div>
   </div>
   );

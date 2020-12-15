@@ -10,9 +10,12 @@ const [mainh2, setH2] = useState("dummy3")
 const [mainh2b, setH2b] = useState("dummy4")
 const [mainline, setLine] = useState("dummy5")
 const [maincircle4, setCircle] = useState("dummy6")
+const ele = (document.documentElement.clientHeight * 0.65);
+const element=(ele*3.7);
+
 
 const listenScrollEvent = (event) => {
-  if (window.scrollY > 2100) {
+  if (window.scrollY > element) {
   // eslint-disable-next-line
     return setH1("mainh1"),
     setH1b("mainh1b"),
@@ -28,7 +31,7 @@ useEffect(() => {
 
   return () =>
     window.removeEventListener('scroll', listenScrollEvent);
-}, []);
+});
   const defaultOptions = {
       loop: true,
       autoplay: true,
@@ -70,7 +73,7 @@ useEffect(() => {
          </div>
        </div>
     </div>
-    <div className="maindiv12">
+    <div className="maindiv1">
        <div className={maincircle4}>
         <Lottie
 	    options={defaultOptions}

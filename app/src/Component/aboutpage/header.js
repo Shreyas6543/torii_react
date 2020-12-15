@@ -33,7 +33,6 @@ useEffect(() => {
     <header className={header}>
       <Link to="/" className="logo"/>
       <ul className="links">
-        <li className="link-item">JOBS</li>
         <li className="link-item2">ABOUT</li>
         <li className="link-iteml">GET IN TOUCH</li>
       </ul>
