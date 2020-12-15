@@ -1,4 +1,4 @@
-
+import logo from './../../Assets/images/logo.gif';
 
 
 export default function Main1() {
@@ -37,7 +37,9 @@ export default function Main1() {
        </div>
     </div>
     <div className="maindiv1">
-        <div className="maincircle"></div>
+        <div className="maincircle">
+            <img src={logo} alt="ppl1"/>
+        </div>
     </div>
   </div>
   );

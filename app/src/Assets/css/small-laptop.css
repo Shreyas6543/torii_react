@@ -430,7 +430,14 @@ width:30%;
 height:40%;
 padding:50px;
 }
-
+.maincircle img{
+width:90%;
+height:100%;
+}
+.maincircle4 img{
+width:81%;
+height:100%;
+}
 .maindiv1{
 position:absolute;
 margin-left:30%;
@@ -443,16 +450,16 @@ bottom:0;
 .maincircle{
 width:150vh;
 height:75vh;
-border-top-left-radius: 90vh;
-border-top-right-radius:90vh;
+border-top-left-radius: 70vw;
+border-top-right-radius:70vw;
 background-size: 100%;
 opacity:1;
-background:url("./../images/logo.gif")no-repeat;
 background:#1c2235;
 overflow:hidden;
 position:absolute;
 float:bottom;
 bottom:0;
+background:url("./../images/logo.gif")no-repeat;
 }
 
 
@@ -624,23 +631,24 @@ margin:5% 0 0 60%;
 width:30%;
 height:40%;
 padding:50px;
+z-index:9;
 }
 
 .maindiv3a{
 position:absolute;
 margin-left:-12%;
 overflow:hidden;
-width:90%;
+width:150vh;
 float:bottom;
 float:bottom;
-height:700px;
+height:75vh;
 bottom:0;
 }
 .maincircle3{
-width:150vh;
+max-width:150vh;
 height:75vh;
-border-top-left-radius: 70vw;
-border-top-right-radius:70vw;
+border-top-left-radius: 75vh;
+border-top-right-radius:75vh;
 background-size: 100%;
 opacity:1;
 background:#1c2235;
@@ -658,6 +666,7 @@ position:absolute;
 margin:10% 0 0 39.5%;
 overflow:hidden;
 width:1150px;
+z-index:9;
 }
 .maincircle4{
 width:150vh;

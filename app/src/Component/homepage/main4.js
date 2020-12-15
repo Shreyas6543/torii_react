@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import ppl from './../../Assets/images/ppl.gif';
 
 
 
@@ -31,7 +32,7 @@ useEffect(() => {
   return () =>
     window.removeEventListener('scroll', listenScrollEvent);
 });
- 
+
   return (
   <div className="main4">
     <div className="maindiv">
@@ -67,6 +68,7 @@ useEffect(() => {
     </div>
     <div className="maindiv1">
        <div className={maincircle4}>
+       <img src={ppl} alt="ppl1"/>
         </div>
     </div>
   </div>

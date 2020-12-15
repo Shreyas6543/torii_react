@@ -438,18 +438,26 @@ bottom:0;
 
 
 .maincircle{
-width:150vh;
-height:75vh;
-border-top-left-radius: 90vh;
-border-top-right-radius:90vh;
-background-size: 100%;
-opacity:1;
-background:url("./../images/logo.gif")no-repeat;
+width:140vh;
+height:70vh;
+border-top-left-radius: 70vh;
+border-top-right-radius:70vh;
+background-size: cover;
 background:#1c2235;
+opacity:1;
 overflow:hidden;
 position:absolute;
 float:bottom;
 bottom:0;
+border-bottom:5px solid black;
+}
+.maincircle img{
+width:90%;
+height:100%;
+}
+.maincircle4 img{
+width:81%;
+height:100%;
 }
 
 
@@ -639,7 +647,7 @@ margin-left:-7%;
 overflow:hidden;
 width:90%;
 float:bottom;
-height:70vh;
+height:80vh;
 bottom:0;
 }
 .maincircle3{
@@ -655,7 +663,6 @@ overflow:hidden;
 position:absolute;
 float:bottom;
 bottom:0;
-
 }
 .dummy1,.dummy2,.dummy3,.dummy4,.dummy5,.dummy6{
 opacity:0;}
