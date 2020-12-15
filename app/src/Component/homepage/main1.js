@@ -1,16 +1,8 @@
 
-import Lottie from 'react-lottie';
-import Data from './../../Assets/lottie/main1.json';
+
 
 export default function Main1() {
-  const defaultOptions = {
-      loop: true,
-      autoplay: true,
-      animationData:Data,
-      rendererSettings: {
-        preserveAspectRatio: "xMidYMid slice"
-      }
-    };
+
   return (
   <div className="main1">
     <div className="maindiv">

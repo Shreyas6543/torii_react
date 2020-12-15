@@ -446,9 +446,8 @@ height:75vh;
 border-top-left-radius: 90vh;
 border-top-right-radius:90vh;
 background-size: 100%;
-animation-name: cimg;
-animation-duration: 1.5s;
 opacity:1;
+background:url("./../images/logo.gif")no-repeat;
 background:#1c2235;
 overflow:hidden;
 position:absolute;
@@ -568,11 +567,7 @@ animation-duration: 1.5s;
  100% {width:83%;}
 }
 
-@keyframes cimg {
- 0% {background:none;opacity:0;}
- 50% {opacity:0;}
- 100% {background:url('./../lottie/main1.json');}
-}
+
 .main2head{
     font-family: 'Oswald', sans-serif;
     font-weight:600;

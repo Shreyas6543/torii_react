@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Lottie from 'react-lottie';
-import Data from './../../Assets/lottie/main4.json';
+
 
 
 export default function Main4() {
@@ -32,14 +31,7 @@ useEffect(() => {
   return () =>
     window.removeEventListener('scroll', listenScrollEvent);
 });
-  const defaultOptions = {
-      loop: true,
-      autoplay: true,
-      animationData:Data,
-      rendererSettings: {
-        preserveAspectRatio: "xMidYMid slice"
-      }
-    };
+ 
   return (
   <div className="main4">
     <div className="maindiv">
