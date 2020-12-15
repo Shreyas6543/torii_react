@@ -643,8 +643,8 @@ height:700px;
 bottom:0;
 }
 .maincircle3{
-width:1100px;
-height:600px;
+width:150vh;
+height:75vh;
 border-top-left-radius: 70vw;
 border-top-right-radius:70vw;
 background-size: 100%;
@@ -666,8 +666,8 @@ overflow:hidden;
 width:1150px;
 }
 .maincircle4{
-width:1300px;
-height:650px;
+width:150vh;
+height:75vh;
 border-top-left-radius: 1300px;
 border-top-right-radius:1300px;
 background-size: 100%;
@@ -679,8 +679,8 @@ float:bottom;
 bottom:0;
 }
 .maincircle5{
-width:1100px;
-height:600px;
+width:150vh;
+height:75vh;
 border-top-left-radius: 1300px;
 border-top-right-radius:1300px;
 background-size: 100%;
