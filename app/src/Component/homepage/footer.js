@@ -52,7 +52,6 @@ useEffect(() => {
          </div>
        </div>
        <div className={footline}></div>
-
     </div>
     <div className="work">
             <div className="worka">LET'S WORK TOGETHER</div>
