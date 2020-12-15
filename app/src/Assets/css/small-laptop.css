@@ -431,27 +431,27 @@ height:40%;
 padding:50px;
 }
 .maincircle img{
-width:90%;
+width:100%;
 height:100%;
 }
 .maincircle4 img{
-width:81%;
+width:100%;
 height:100%;
 }
 .maindiv1{
 position:absolute;
-margin-left:30%;
+margin-left:20%;
 overflow:hidden;
-width:70%;
+width:80%;
 float:bottom;
 height:80vh;
 bottom:0;
 }
 .maincircle{
-width:150vh;
-height:75vh;
-border-top-left-radius: 70vw;
-border-top-right-radius:70vw;
+width:140vh;
+height:70vh;
+border-top-left-radius: 70vh;
+border-top-right-radius:70vh;
 background-size: 100%;
 opacity:1;
 background:#1c2235;
