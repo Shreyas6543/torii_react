@@ -384,6 +384,7 @@ background-color:white;
     position:relative;
     display:flex;
 flex-direction:column;
+
 }
 .main3{
 height:90vh;
@@ -588,7 +589,11 @@ height:30%;
 .main2head{
     font-family: 'Oswald', sans-serif;
     font-weight:600;
-    font-size:50px;
+    font-size:60px;
+    height:50%;
+    width:85%;
+    margin-left:14%;
+    margin-top:6%;
     color:black;
     position:absolute;
     }

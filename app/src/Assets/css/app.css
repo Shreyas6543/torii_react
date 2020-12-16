@@ -376,6 +376,9 @@ height:80vh;
 background-color:white;
   letter-spacing: 0.15em;
     position:relative;
+    display:flex;
+flex-direction:column;
+
 }
 .main3{
 height:90vh;
@@ -690,10 +693,10 @@ float:bottom;
 bottom:0;
 }
 .maincircle5{
-width:150vh;
-height:75vh;
-border-top-left-radius: 75vh;
-border-top-right-radius:75vh;
+width:140vh;
+height:70vh;
+border-top-left-radius: 70vh;
+border-top-right-radius:70vh;
 background-size: 100%;
 opacity:1;
 background:#1c2235;

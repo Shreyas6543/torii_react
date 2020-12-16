@@ -8,9 +8,9 @@ const twit = <FontAwesomeIcon icon={faTwitter} />;
 
 
 export default function Footer() {
-const [footh1, setH1] = useState("dummy1")
-const [footh2, setH2] = useState("dummy2")
-const [footline, setLine] = useState("dummy3")
+const [footh1, setH1] = useState("fdummy1")
+const [footh2, setH2] = useState("fdummy2")
+const [footline, setLine] = useState("fdummy3")
 const ele = (document.documentElement.clientHeight * 0.65);
 const element=(ele*7.4);
 
