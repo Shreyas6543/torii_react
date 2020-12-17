@@ -9,6 +9,7 @@ import './Assets/css/laptop-with-touch.css';
 import './Assets/css/tab-big-vertical.css';
 import './Assets/css/tab-small-vertical.css';
 import './Assets/css/tab-small-horizontal.css';
+import './Assets/css/big-phone-landscape.css';
 import Header from './Component/homepage/header.js'
 import Main1 from './Component/homepage/main1.js'
 import Main2 from './Component/homepage/main2.js'

@@ -81,8 +81,6 @@ useEffect(() => {
         <div className={maincircle5}>
         <Lottie
 	    options={defaultOptions}
-        height={700}
-        width={700}
       /></div>
     </div>
   </div>
